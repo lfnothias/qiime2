@@ -1,4 +1,4 @@
-FROM qiime2/core:2018.6
+FROM qiime2/core:2020.11
 
 # Installing core dependencies for python
 RUN apt-get update -y
