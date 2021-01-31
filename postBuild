@@ -1,7 +1,4 @@
 #!/bin/bash
-wget https://data.qiime2.org/distro/core/qiime2-2020.11-py36-linux-conda.yml
-conda env create -n qiime2-2020.11 --file qiime2-2020.11-py36-linux-conda.yml
-conda activate qiime2-2020.11
 git clone https://github.com/mwang87/q2_metabolomics
 cd q2_metabolomics
 pip install -e .
