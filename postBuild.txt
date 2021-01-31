@@ -5,4 +5,3 @@ conda activate qiime2-2020.11
 git clone https://github.com/mwang87/q2_metabolomics
 cd q2_metabolomics
 pip install -e .
-qiime metabolomics import-gnpsnetworkingclusteringtask
